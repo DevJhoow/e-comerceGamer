@@ -1,0 +1,21 @@
+/* formulario de contato ---------------------------------- */
+fieldset {
+    width: 60%;
+    margin: 10px auto;
+}
+
+.formulario {
+    margin: 10px;
+}
+
+.formEsq {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    vertical-align: top;
+}
+
+.formDir {
+    display: inline-block;
+    width: 70%;
+}

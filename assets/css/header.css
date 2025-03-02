@@ -1,0 +1,39 @@
+/*cabeçalho--------------------------------------*/
+header {
+    background: linear-gradient(to right, blue, white, black);
+    color: #fff;
+    padding: 20px;
+}
+
+
+/*Menu ------------------------------------------*/
+.menu {
+    background-color: #ccc;
+} 
+
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline;
+    text-transform: uppercase;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #88f;
+    padding: 10px;
+    display: inline-block;
+}
+
+.menu ul li a:hover { /*qdo passar o mouese muda de cor */
+    columns: #fff;
+    background-color: rgb(230, 230, 231);
+}
+
+section, footer, nav {
+    text-align: center;
+}

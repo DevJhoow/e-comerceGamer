@@ -1,0 +1,16 @@
+
+/* footer -------------------------------------------------- */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+    background-color: #ffffff; /* Cor de fundo opcional */
+    color: rgb(45, 45, 45); /* Cor do texto */
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(5, 5, 5); /* Cor da linha */
+    margin: 5px 0; /* Espaço entre a linha e o texto */
+}

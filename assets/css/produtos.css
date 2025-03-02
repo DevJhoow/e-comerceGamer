@@ -1,0 +1,24 @@
+/*figura produtos --------------------------------------*/
+figure {
+    display: inline-block;
+    background-color: #000;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    opacity:0.6;
+}
+
+figure img {
+    width: 200px;  /* Defina a largura desejada */
+    height: 200px; /* Defina a altura desejada */
+    object-fit: cover; /* Garante que a imagem cubra toda a área sem distorcer */
+}
+
+figure:hover {
+    opacity: 1.4;
+}
+
+figcaption a { 
+    text-decoration: none;
+    color: #fff;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/banner.css">
+    <link rel="stylesheet" href="/assets/css/formulario.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    <title>.::RW_ProGames::.</title>
+</head>
+<body>
+    <div class="container">
+        <!-- cabeçalho  -->
+        <header>
+            <h1 class="titulo"> RW_ProGames </h1>
+        </header>
+        
+        <!-- conteudo principal  -->
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="console.html">Console</a></li>
+                    <li><a href="jogos.html">Jogos</a></li>
+                    <li><a href="multimidia.html">Multimídias</a></li>
+                    <li><a href="contatos.html">Contato</a></li>
+                    <li><a href="horario.html">Horário</a></li>
+                    <li><a href="localizacao.html">Localização</a></li>
+                </ul>
+            </nav>
+            <section>
+                <h1>Contato</h1>
+                <form action="resposta.html">
+                    <fieldset>
+                        <legend> Dados pessoais </legend>
+                        <div class="formulario">
+                            <label class="formEsq" for="nome" >Nome:</label>
+                            <input class="formDir" type="text" placeholder="digite o nome" id="nome" >
+                        </div>
+                        <div class="formulario">
+                            <label class="formEsq" for="email" >E-mail:</label>
+                            <input class="formDir" type="email" placeholder="digite o Email" id="email">
+                        </div>
+                        <div class="formulario">
+                            <label class="formEsq" for="idade" >Idade:</label>
+                            <input class="formDir" type="number" placeholder="digite sua idade" id="idade">
+                        </div>
+                        <div class="formulario">
+                            <label class="formEsq" for="telefone" >Tel:</label>
+                            <input class="formDir" type="tel" placeholder="digite seu telefone" id="telefone">
+                        </div>
+                        <div class="formulario">
+                            <label class="formEsq" for="" ></label>
+                            <div class="formDir">
+                                <input type="radio" name="sexo" id="masculino">
+                                <label for="masculino">Masculino</label>
+                                <input type="radio" name="sexo" id="feminino">
+                                <label for="feminino">Feminino</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Menssagem</legend>
+                        <div class="formulario">
+                            <label for="" class="formEsq">Assunto</label>
+                            <select name="" id="formDir">
+                                <option value="Criticas"></option>
+                                <option value="Sujestoes"></option>
+                                <option value="Outros"></option>
+                            </select>
+                        </div>
+                        <div class="formulario">
+                            <label for="msg" class="formEsq">Mensagem</label>
+                            <textarea name="" id="msg" class="formDir"></textarea>
+                        </div>
+                        <button>Enviar as informações </button>
+                    </fieldset>
+                </form>
+            </section>
+
+        <!-- roda-pé -->
+        <footer>
+            <div class="line"></div>
+            <p>RW_ProGammer &copy; 2025</p>
+            <div class="line"></div>
+        </footer>
+    </div>
+   
+</body>
+</html>

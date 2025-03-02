@@ -1,0 +1,8 @@
+/* banner ----------------- */
+
+.banner img {
+    object-fit: cover; 
+    object-position: top;
+    width: 1000px;
+    max-height: 300px
+}
