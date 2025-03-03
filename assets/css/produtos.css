@@ -1,24 +1,73 @@
-/*figura produtos --------------------------------------*/
+/* Figura produtos -------------------------------------- */
 figure {
     display: inline-block;
     background-color: #000;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
-    opacity:0.6;
+    opacity: 0.6;
+    text-align: center; /* Garante que o conteúdo dentro da figure fique centralizado */
 }
 
 figure img {
-    width: 200px;  /* Defina a largura desejada */
-    height: 200px; /* Defina a altura desejada */
+    width: 200px;  /* Tamanho fixo das imagens */
+    height: 200px; /* Mantém altura fixa */
     object-fit: cover; /* Garante que a imagem cubra toda a área sem distorcer */
+    border-radius: 8px; /* Suaviza as bordas */
 }
 
 figure:hover {
-    opacity: 1.4;
+    opacity: 1; /* Ajustado para um valor válido */
 }
 
 figcaption a { 
     text-decoration: none;
     color: #fff;
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 480px) { /* menor celular */
+    .container {
+        padding: 5px;
+    }
+
+    .menu ul li a {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .banner img {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .figures-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* Centraliza as figures */
+        gap: 10px; /* Espaço entre as figuras */
+    }
+
+    figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centraliza o conteúdo */
+        background-color: #000;
+        margin: 8px;
+        padding: 6px;
+        border-radius: 10px;
+        opacity: 0.6;
+        text-align: center;
+        width: calc(33.33% - 20px); /* Ajusta para ocupar 1/3 da tela */
+        max-width: 240px; /* Define um tamanho máximo */
+    }
+
+    figure img {
+        width: 100px; /* Reduz o tamanho das imagens para telas menores */
+        height: 100px;
+    }
+
+    figcaption a {
+        font-size: 12px; /* Reduz o tamanho do texto */
+    }
 }

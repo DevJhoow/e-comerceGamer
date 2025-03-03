@@ -28,6 +28,7 @@ img {
 }
 
 .menu ul li a {
+    font-size: clamp(12px, 2vw, 16px); /* Ajusta dinamicamente entre 12px e 16px */
     text-decoration: none;
     padding: 10px 15px;
     display: block;
@@ -39,40 +40,19 @@ img {
 
 @media (max-width: 600px) {
     .menu ul {
-        flex-direction: column;
-        align-items: center;
+        font-size: 3vw; /* O texto se ajusta ao tamanho da tela */
+        padding: 8px 10px;
+        flex-direction: row; /* Mantém os itens lado a lado */
+        justify-content: center;
     }
 
     .menu ul li {
-        width: 100%;
+        flex: 1 1 auto; /* Permite que os itens se ajustem ao tamanho disponível */
         text-align: center;
     }
 }
 
 
-@media (max-width: 480px) { /* menor celular */
-    .container {
-        padding: 5px;
-    }
-
-    .menu ul li a {
-        font-size: 14px;
-        padding: 8px;
-    }
-
-    .banner img {
-        height: auto;
-    }
-
-    figure {
-        width: 100%;
-        text-align: center;
-    }
-
-    figcaption a {
-        font-size: 14px;
-    }
-}
 
 
 footer {
