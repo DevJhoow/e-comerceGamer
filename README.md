@@ -1,7 +1,7 @@
 🎮 Loja de Games 🎮
 
 Descrição
-Uma loja virtual fictícia de games feita com HTML e CSS puro, sem JavaScript ou backend. O objetivo do projeto é treinar estruturação de páginas, estilização(css) e organização de arquivos.
+Uma loja virtual fictícia de games feita com HTML e CSS puro,ambientado no Docker, sem JavaScript ou backend. O objetivo do projeto é treinar estruturação de páginas, estilização(css) e organização de arquivos.
 
 🚀 Tecnologias utilizadas:
 
